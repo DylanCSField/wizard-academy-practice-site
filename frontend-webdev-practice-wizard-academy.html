@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Practice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    background-color: #190482;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    margin: 0px;
+}
+nav li {
+    color: #DDE6ED;
+    font-weight: bolder;
+    font-family: "Noto Serif", serif;
+    font-size: 1.1rem;
+    margin-right: 8%;
+}
+
+#Hero-Section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #150044;
+    height: 80vh;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+#wizard-image {
+    height: 60vh;
+    margin-left: 10vw;
+}
+#image-subtitle {
+    color: #FFD23F;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 15vw;
+}
+p {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: #DDE6ED;
+    margin-right: 10vw;
+    max-width: 40vw;
+}
+
+footer {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   background-color: #190482;
+   color: #DDE6ED;
+   padding-top: 4vh;
+   padding-bottom: 10vh;
+}
+.footer-element {
+    margin-left: 20%;
+}
+#copyright-notice {
+    margin-top: 3vh;
+}
+</style>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Courses</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <main>
+        <section id="Hero-Section">
+            <figure>
+                <img id="wizard-image" src="https://sketchok.com/images/articles/03-games/002-clash-of-clans/07/13.jpg" alt="Your Master; Clash of Clans Wizard">
+                <figcaption id="image-subtitle">Your Teacher at Wizard Academy</figcaption>
+            </figure>
+            <p>Welcome to Wizard Academy, where magic comes to life and dreams take flight! Embark on a journey of discovery and wonder as you step into the enchanting world of spellbinding education. Our hero section welcomes you with open arms, offering a glimpse into the extraordinary experiences that await within our hallowed halls. Picture yourself immersed in captivating lectures by esteemed sorcerers, mastering the arcane arts with fellow apprentices, and unleashing your inner wizardry in hands-on laboratories pulsating with mystical energy. Whether you're a novice or a seasoned practitioner, Wizard Academy invites you to unleash your potential and embrace the extraordinary. Dare to dream, dare to believe, and let your magical adventure begin!</p>
+
+        </section>
+    </main>
+    <footer>
+        <h2 class="footer-element">Contact Information</h2>
+        <p class="footer-element" id="phone-number">Phone Number: 420-6969-0420</p>
+        <p class="footer-element" id="copyright-notice">Wizard Academy. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
